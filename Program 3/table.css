@@ -1,0 +1,54 @@
+html,body
+{
+    margin:0;
+    box-sizing: border-box;
+}
+header   
+{
+background:linear-gradient(45deg,darkcyan,white);
+color: white;
+text-align: center;
+width: 100%;
+display: block;
+padding: 20px;
+}
+table,tr, th, td{
+border: 1px solid black;
+border-collapse: collapse;
+padding: 32px;
+text-align: center;
+
+
+}
+.table-design{
+margin-left: auto;
+margin-right:auto;
+margin-top: auto;
+padding: 50px;
+}
+table#table-design th
+{
+vertical-align: middle;
+
+}
+tr th:nth-child(7)
+{
+writing-mode:vertical-lr ;
+}
+
+tr >th
+{
+background:linear-gradient(rgb(167, 146, 146),rgb(163, 108, 108));
+}
+
+td
+{
+    background-color: rgb(155, 155, 155);
+    
+}
+div
+{
+    padding: 40px;
+    
+
+}
